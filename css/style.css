@@ -1,0 +1,32 @@
+body {
+    background: rgb(216, 225, 230);
+}
+
+h1 {
+    border: 5px  rgb(45, 108, 224);
+    background: gray;
+    margin: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/*elemento padre o contenedor de img y p*/
+
+.caja {
+    /* outline: 1px solid red; */
+    width: 320px;
+    padding: 10px;
+    border: 2px solid rgb(129, 151, 201);
+    margin: 60px;
+    box-sizing: border-box;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    text-align: justify;
+}
